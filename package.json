@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "client-install":"npm install --prefix client",
     "dev": "nodemon --config nodemon.json src/app.ts"
   },
   "dependencies": {
